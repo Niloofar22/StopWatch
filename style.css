@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins";
+}
+body {
+  background-color: #232526;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+}
+.container {
+  background-color: #f1f1f1;
+  width: 750px;
+  padding: 50px 25px;
+  border-radius: 50px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.35);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 70px;
+}
+.timer-display {
+  position: relative;
+  width: auto;
+  background-color: #fff;
+  color: #f8b313;
+  font-size: 30px;
+  padding: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 25px;
+
+  box-shadow: 0 0 20px rgba(35, 35, 35, 0.084);
+}
+.timer-display .timer-display-hour {
+  width: 80px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.timer-display .timer-display-minute {
+  width: 80px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.timer-display .timer-display-second {
+  width: 80px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.timer-display .timer-display-millisecond {
+  width: 80px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.buttons {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+
+.buttons button {
+  width: 120px;
+  padding: 15px 25px;
+  background-color: #fff;
+  color: #232526;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+.buttons button:nth-child(1) {
+  background-color: #3aa500;
+}
+.buttons button:nth-child(2) {
+  background-color: #e87c00;
+}
+.buttons button:nth-child(3) {
+  background-color: #f8b313;
+}
+.buttons button:hover {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.35);
+}
